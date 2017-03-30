@@ -1,0 +1,14 @@
+html{
+    height: 570px;
+    width: 90%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+	border-width:2px;
+ 	border-style:ridge;
+ 	border-color:black;
+
+}
+h1{
+	background-color: grey;
+}
