@@ -1,19 +1,21 @@
 <?php
-	$i = 0;
-	$pair = array();
-	$impair = array();
-	while(i<rand(0,1000){
-		if (i%2==0)
+	$nombre = array();
+	$i=0;
+	while(count($nombre)!=3)
+	{
+		$tirage = rand(0,1000);
+		if ($tirage%2==0 && empty($nombre))
 		{
-		   array_push($pair,$i)
+			array_push($nombre,$tirage);
 		}
-		array_push($impair,$i)
+		elseif ($tirage%2!=0 && !empty($nombre))
+		{
+			array_push($nombre,$tirage);
+		}
+		$i++;
 	}
-	echo $impair:
-	echo $pair;
-?>
-
-
-
-
-
+		echo $nombre[0]."</br>";
+		echo $nombre[1]."</br>";
+		echo $nombre[2]."</br>";
+		echo "Résultat obtenu en"." ". $i." "."coups";
+	?>
