@@ -1,4 +1,4 @@
-<?php>
+<?php
 	$i = 0;
 	$pair = array();
 	$impair = array();
@@ -11,7 +11,7 @@
 	}
 	echo $impair:
 	echo $pair;
-	?>
+?>
 
 
 
